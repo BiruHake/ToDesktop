@@ -8,6 +8,7 @@
     <title>Navbar</title>
 </head>
 <body class="bg-orange-50">
+    <!--Navbar-->
     <nav class="w-full bg-white h-[69px] flex justify-between items-center font-bold px-8">
         <div class="flex items-center">
             <img class="h-[48px] w-[48px] mr-2" src="https://www.todesktop.com/cdn-cgi/image/width=96,height=96,f=auto,fit=cover/_app/immutable/assets/todesktop-logo.bn2Qe8sb.png" alt="">
@@ -29,6 +30,7 @@
                <a class="text-2xl" href="#">&#8801;</a>
         </button>
 
+        <!--side bar-->
         <div id="nav-dialog" class="fixed bg-white inset-0 p-3 lg:hidden z-10">
         <div id="nav-bar" class="w-full h-[69px] flex justify-between items-center font-bold px-8">
             <div class="flex items-center">
@@ -55,6 +57,7 @@
         </div>
     </nav>
 
+      <!--hero section-->
     <div class="min-h-screen p-3 flex bg-gradient-to-br from-purple-50 via-orange-50 to-transparent">
       <div id="hero-container" class="max-w-4xl mx-auto px-6 pb-32 flex-col sm:items-center sm:text-center m-12">
         <div id="version-text" class="flex items-center my-6 gap-2 border border-yellow-300 bg-yellow-50 rounded-lg px-3 p-y1 shadow-md hover:shadow-lg hover:-translate-y-1 transition group w-fit sm:m-auto">
@@ -70,33 +73,50 @@
         </div>
       </div>
     </div>
-     <div class="flex flex-col lg:grid grid-cols-3 mx-12">
-    <div class="h-[200px] w-[721px] bg-gray-50 mb-4 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+
+    <!--box-->
+    <div>
+        <h1 class="mx-16 mb-8 text-4xl font-semibold lg:text-center">ToDesktop handles the details</h1>
+     <div class="flex flex-col lg:grid grid-cols-3 grid-rows-4 gap-4 mx-14">
+    <div class="py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Native notification</h1>
+        <img class="max-w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
     </div>
-    <div class="h-[200px] mb-4 w-[721px] bg-gray-50 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+    <div class="row-span-2 py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50 ">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Auto Updates</h1>
+        <p class="mb-4 text-center px-12 text-lg">We’ll ensure the underlying browser is up to date and deliver performance improvements, security patches, & additional features</p>
+        <img class="max-w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/auto-updates@3x.png" alt="">
     </div>
-    <div class="h-[200px] mb-4 w-[721px] bg-gray-50 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+    <div class="py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Plugins</h1>
+        <img class="max-w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/plugins@3x.png" alt="">
     </div>
-    <div class="h-[200px] mb-4 w-[721px] bg-gray-50 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+    <div class="row-span-2 py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Access to Native APIs</h1>
+        <p class="mb-4 text-center px-12 text-lg">ToDesktop ensures the underlying browser, performance improvements, security patches and additional features are always up to date.</p>
+        <img class="max-w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/apis@3x.png" alt="">
     </div>
-    <div class="h-[200px] mb-4 w-[721px] bg-gray-50 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+    <div class="row-span-2 py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Native Installers</h1>
+        <p class="mb-4 text-center px-12 text-lg">We even provide a magic link which will detect your users operating system & download the most up to date version of your app.</p>
+        <img class="max-w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/installers@3x.png" alt="">
     </div>
-    <div class="h-[200px] mb-4 w-[721px] bg-gray-50 border border-gray-300 m-auto rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
-        <h1 class="text-2xl font-semibold mb-4">Native notification</h1>
-        <img class="w-[239px] h-[65px] object-cover" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=176,f=auto,fit=cover/feature-images/notifications-cachebust@3x.png" alt="">
+    <div class="py-4 bg-gray-50 border border-gray-300 rounded-2xl flex flex-col items-center justify-center hover:bg-gradient-to-br hover:from-yellow-50 hover:via-blue-50 to-red-50">
+        <h1 class="text-2xl font-semibold mb-4 px-4">Customizable look and feel</h1>
+        <img class="max-w-[239px] object-cover overflow-hidden" src="https://www.todesktop.com/cdn-cgi/image/width=640,height=210,f=auto,fit=cover/feature-images/look-and-feel@3x.png" alt="">
     </div>
     </div>
-    <div class="h-[150px] w-full"></div>
+    </div>
+    <!--footer-->
+    <footer class="py-4 bg-white">
+        <div class="flex items-center justify-center">
+        <img class="h-[10px] w-[10px] mr-2" src="https://www.todesktop.com/_app/immutable/assets/y-combinator-logo.VDo9bew9.svg" alt="">
+        <p> A Y Combinator company.</p>
+        </div>
+        <div class="flex items-center justify-center mt-2">
+        <p class="text-gray-400">© 2025 ToDesktop, Inc. All rights reserved</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
